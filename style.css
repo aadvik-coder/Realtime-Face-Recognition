@@ -1,0 +1,101 @@
+body{
+    font-family: 'Zen Tokyo Zoo', cursive;  
+    background-image: linear-gradient(to right top, #ff6363, #ff821c, #ffe987, #ff2626, #ff9842);
+}
+.heading{
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+    box-shadow: 5px 5px 5px grey;
+    background: linear-gradient(#ffed4d 0%, #ff9a4d 100%);
+    color: white;
+}
+.heading_div{
+    float: none ; 
+    background: linear-gradient(#ff9a4d 0%, #ffed4d 100%);
+    padding: 10px;
+    border-radius: 20px;
+    color: black;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.heading_div2{
+    font-size: 20px;
+    color: #ff7f14;
+
+}
+
+.p_tag{
+    box-shadow: 5px 5px 5px grey;
+    font-size: 20px;
+    width: 200px;
+}
+
+.copyright_footer {
+    position: fixed;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    background-color: #ff9e4f;
+    line-height: 3;
+    text-align: center;
+
+}
+
+canvas{
+    border-radius: 20px;
+    margin-top: 150px;
+}
+canvas {
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    0% {
+        box-shadow: 1px 1px 50px red;
+        border: 5px solid red;
+    }
+
+    12.5% {
+        box-shadow: 1px 1px 50px orange;
+        border: 5px solid orange;
+    }
+
+    25% {
+        box-shadow: 1px 1px 50px yellow;
+        border: 5px solid yellow;
+    }
+
+    37.5% {
+        box-shadow: 1px 1px 50px rgb(0, 255, 0);
+        border: 5px solid rgb(0, 255, 0);
+    }
+
+    50% {
+        box-shadow: 1px 1px 50px rgb(0, 255, 255);
+        border: 5px solid rgb(0, 255, 255);
+    }
+
+    62.5% {
+        box-shadow: 1px 1px 50px blue;
+        border: 5px solid blue;
+    }
+
+    75% {
+        box-shadow: 1px 1px 50px purple;
+        border: 5px solid purple;
+    }
+
+    87.5% {
+        box-shadow: 1px 1px 50px rgb(255, 0, 255);
+        border: 5px solid rgb(255, 0, 255);
+    }
+
+    100% {
+        box-shadow: 1px 1px 50px red;
+        border: 5px solid red;
+    }
+
+}
